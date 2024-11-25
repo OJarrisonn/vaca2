@@ -1,0 +1,7 @@
+(mod hello_world
+    (func main int (argc int argv (array String)) ; Entry point
+        (greet "Vaca")
+        (return 0))
+
+    (func greet void (name String) ; Greet a person
+        (println "Hello " name)))

@@ -1,0 +1,8 @@
+
+#mod ( hello_world 
+    #func (#int main (#int argc #array #String argv) ; Entry point
+        (greet "Vaca")
+        #return 0)
+    
+    #func (#void greet (#String name) ; Greet a person
+        (println "Hello " name)))

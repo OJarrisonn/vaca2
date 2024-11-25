@@ -1,0 +1,9 @@
+[package]
+name = "vaca2"
+version = "0.0.1"
+edition = "2021"
+authors = ["Harrisonn <j.h.m.t.v.10@gmail.com>"]
+description = "A compiled LISP-like language written in Rust"
+
+[dependencies]
+edn-format = "=3.3.0"
