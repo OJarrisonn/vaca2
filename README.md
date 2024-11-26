@@ -19,3 +19,13 @@ Vaca2 is still in planning phase but the roadmap is as follows:
     - [ ] Type declaration
 - [ ] Project management tooling
 - [ ] LSP tooling
+
+## What Is Vaca
+
+Vaca main target is to be Clojure equivalent for C. Clojure is a LISP that runs on the JVM. Vaca is meant to be a LISP that compiles to C with full interop with C code.
+
+Vaca is meant to be a multi paradigm garbage collected programming language
+
+## Tech Stack
+
+- GC implementation: https://github.com/mkirchner/gc
